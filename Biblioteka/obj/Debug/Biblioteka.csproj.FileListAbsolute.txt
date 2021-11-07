@@ -1,0 +1,11 @@
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\bin\Debug\Biblioteka.dll
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\bin\Debug\Biblioteka.pdb
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\obj\Debug\Biblioteka.csprojAssemblyReference.cache
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\obj\Debug\Biblioteka.csproj.CoreCompileInputs.cache
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\obj\Debug\Biblioteka.dll
+C:\Users\sagata\source\repos\FIFO_testowa\Biblioteka\obj\Debug\Biblioteka.pdb
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Biblioteka\bin\Debug\Biblioteka.dll
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Biblioteka\bin\Debug\Biblioteka.pdb
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Biblioteka\obj\Debug\Biblioteka.csprojAssemblyReference.cache
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Biblioteka\obj\Debug\Biblioteka.dll
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Biblioteka\obj\Debug\Biblioteka.pdb
