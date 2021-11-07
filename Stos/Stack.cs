@@ -27,7 +27,7 @@ namespace Stos
         public static void Push(ref Stack s, Osoba os)
         {
             if (Stack.IsFull(s))
-                throw new InvalidOperationException("Stos jest pe�ny!!!");
+                throw new InvalidOperationException("Stos jest pełny!!!");
             s.Czarownice[s.Index] = os;
             s.Index++;
         }
@@ -37,10 +37,17 @@ namespace Stos
             return s.Index == 0;
         }
 
-//        public static Osoba Pop(ref Stack s)
-//        {
-////TODO
-//        }
+        public static Osoba Pop(ref Stack s)
+        {
+            if (Stack.IsEmpty(s)) {
+                throw new InvalidOperationException("Stos jest pusty !!!");
+            }
+
+            Osoba tmp = Peek(s);
+            s.Index--;
+            
+            return tmp;    
+        }
 
         public static void Clear(ref Stack s)
         {

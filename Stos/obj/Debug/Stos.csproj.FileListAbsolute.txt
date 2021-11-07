@@ -1,0 +1,8 @@
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\bin\Debug\Stos.dll
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\bin\Debug\Stos.pdb
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\bin\Debug\Biblioteka.dll
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\bin\Debug\Biblioteka.pdb
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\obj\Debug\Stos.csprojAssemblyReference.cache
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\obj\Debug\Stos.csproj.CopyComplete
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\obj\Debug\Stos.dll
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\Stos\obj\Debug\Stos.pdb
