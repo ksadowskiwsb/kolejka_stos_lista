@@ -59,9 +59,9 @@ namespace KolejkaFIFO
             if (Queue.IsEmpty(q))
                 throw new InvalidOperationException("Kolejka jest pusta");
             
-            tmp = Peek(q);
+            Osoba tmp = Peek(q);
             
-            if (q.Kolejka.Length == 1) {
+            if (GetLength(q) == 1) {
                 q.First = -1;
                 q.Last = -1;
             }

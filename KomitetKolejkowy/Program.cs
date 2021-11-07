@@ -41,7 +41,7 @@ namespace KomitetKolejkowy
                         break;
                     case 'b':
                     case 'B':
-                        // Osoba.WypiszOsobe(Queue.Dequeue(ref mojaKolejka));
+                        Osoba.WypiszOsobe(Queue.Dequeue(ref mojaKolejka));
                         Console.ReadKey();
                         break;
                     case 'c':
