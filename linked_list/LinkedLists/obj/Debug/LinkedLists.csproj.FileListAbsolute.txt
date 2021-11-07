@@ -1,0 +1,6 @@
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\bin\Debug\LinkedLists.exe.config
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\bin\Debug\LinkedLists.exe
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\bin\Debug\LinkedLists.pdb
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\obj\Debug\LinkedLists.csprojAssemblyReference.cache
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\obj\Debug\LinkedLists.exe
+C:\Users\studentwsb\Source\Repos\ksadowskiwsb\kolejka_stos_lista\linked_list\LinkedLists\obj\Debug\LinkedLists.pdb

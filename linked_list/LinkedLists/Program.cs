@@ -17,10 +17,18 @@ namespace LinkedLists
         /// <param name="args">command-line arguments</param>
         static void Main(string[] args)
         {
-            TestUnsortedLinkedList.RunTestCases();
-            TestSortedLinkedList.RunTestCases();
+            //TestUnsortedLinkedList.RunTestCases();
+            //TestSortedLinkedList.RunTestCases();
 
-            Console.WriteLine();
+            UnsortedLinkedList<int> lista = new UnsortedLinkedList<int>();
+
+            lista.Add(1);
+            lista.Add(2);
+            lista.Add(3);
+
+            lista.LinkedListPrint();
+
+            Console.ReadKey();
         }
     }
 }

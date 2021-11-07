@@ -147,6 +147,35 @@ namespace LinkedLists
             }
         }
 
+        public void LinkedListPrint()
+        {
+            if (head == null) {
+                Console.WriteLine("Lista jest pusta !!!");
+            }
+            else
+            {
+                LinkedListNode<T> node = head;
+
+                while (node != null)
+                {
+                    Console.WriteLine($"Current Value: {node.Value}");
+
+                    if (node.Next == null)
+                    {
+                        Console.WriteLine("Next Value: NULL");
+                    }
+                    else 
+                    {
+                        Console.WriteLine($"Next Value: {node.Next.Value}");
+                    }
+                    
+                    Console.WriteLine();
+                    node = node.Next;
+                }
+                
+            }
+        }
+
         /// <summary>
         /// Converts the linked list to a comma-separated string of values
         /// </summary>
