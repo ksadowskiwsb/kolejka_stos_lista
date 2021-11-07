@@ -30,12 +30,13 @@ namespace LinkedLists
             // adding to empty list
             if (head == null)
             {
-                head = new LinkedListNode<T>(item, null);
+                head = new LinkedListNode<T>(item, null, null);
             }
             else
             {
                 // add to front of list
-                head = new LinkedListNode<T>(item, head);
+                head = new LinkedListNode<T>(item, head, null);
+                head.Next.Previous = head;
             }
             count++;
         }

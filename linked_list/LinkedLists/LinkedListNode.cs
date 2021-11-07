@@ -15,6 +15,7 @@ namespace LinkedLists
 
         T value;
         LinkedListNode<T> next;
+        LinkedListNode<T> previous;
 
         #endregion
 
@@ -25,10 +26,11 @@ namespace LinkedLists
         /// </summary>
         /// <param name="value">value</param>
         /// <param name="next">next node</param>
-        public LinkedListNode(T value, LinkedListNode<T> next)
+        public LinkedListNode(T value, LinkedListNode<T> next, LinkedListNode<T> previous)
         {
             this.value = value;
             this.next = next;
+            this.previous = previous;
         }
 
         #endregion
@@ -52,6 +54,12 @@ namespace LinkedLists
         {
             get { return next; }
             set { next = value; }
+        }
+
+        public LinkedListNode<T> Previous
+        {
+            get { return previous; }
+            set { previous = value; }
         }
 
         #endregion

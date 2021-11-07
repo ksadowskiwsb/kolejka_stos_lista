@@ -91,6 +91,8 @@ namespace LinkedLists
             {
                 // remove from head of list
                 head = head.Next;
+                head.Previous = null;
+
                 count--;
 
                 return true;
@@ -115,6 +117,8 @@ namespace LinkedLists
                 {
                     // set link and reduce count
                     previousNode.Next = currentNode.Next;
+                    currentNode.Next.Previous = currentNode.Previous;
+
                     count--;
 
                     return true;
@@ -167,6 +171,16 @@ namespace LinkedLists
                     else 
                     {
                         Console.WriteLine($"Next Value: {node.Next.Value}");
+
+                    }
+                    
+                    if (node.Previous == null)
+                    {
+                        Console.WriteLine("Previous Value: NULL");
+                    }
+                    else 
+                    {
+                        Console.WriteLine($"Previous Value: {node.Previous.Value}");
                     }
                     
                     Console.WriteLine();

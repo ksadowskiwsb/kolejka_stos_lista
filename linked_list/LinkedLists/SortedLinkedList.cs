@@ -30,12 +30,12 @@ namespace LinkedLists
             // adding to empty list
             if (head == null)
             {
-                head = new LinkedListNode<T>(item, null);
+                head = new LinkedListNode<T>(item, null, null);
             }
             else if (head.Value.CompareTo(item) > 0)
             {
                 // adding before head
-                head = new LinkedListNode<T>(item, head);
+                head = new LinkedListNode<T>(item, head, null);
             }
             else
             {
@@ -50,7 +50,7 @@ namespace LinkedLists
                 }
 
                 // link in new node between previous node and current node
-                previousNode.Next = new LinkedListNode<T>(item, currentNode);
+                previousNode.Next = new LinkedListNode<T>(item, currentNode, null);
             }
             count++;
         }
